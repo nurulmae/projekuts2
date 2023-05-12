@@ -1,0 +1,32 @@
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+}
+
+@media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+    }
+}
+
+.owl-carousel .card {
+    margin: 0 10px;
+}
+
+/* Change owl carousel arrows color */
+.owl-theme .owl-controls .owl-nav [class*=owl-] {
+    color: #555;
+}
+
+/* Change owl carousel arrows hover color */
+.owl-theme .owl-controls .owl-nav [class*=owl-]:hover {
+    color: #000;
+}
+
+/* Hide the pagination dots */
+.owl-theme .owl-controls .owl-dots {
+    display: none;
+}
